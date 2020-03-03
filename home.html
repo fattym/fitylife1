@@ -57,24 +57,29 @@
                 concerned about your weight.</p>
             <p>Enter your biodata below to calculate BMI</p>
         </div>
-        <div class="container">
-            <div class="panel">
-                <h2 class="text-center">Check your BMI</h2>
-                <p id="introText" align="left">Enter your weight and height below to check your BMI results</p>
-                <form>
-                    <div id="weightInput">
-                        <p>Put your weight in here (KG)</p>
-                        <input id="weight" type="number" required pattern="[0-9]*" name="a" />
-                    </div>
-                    <div id="heightInput">
-                        <p>And your height in here (CM)</p>
-                        <input id="height" type="number" pattern="[0-9]*" name="b" />
-                    </div>
-                    <button type="button" onclick="calculate()">Calculate BMI</button>
-                </form>
-                <div id="results" align="" left>Your BMI results will appear here</div>
+        <section class="bmi">
+            <div class="container">
+                <div class="panel">
+                    <h2 class="text-center" style="font-family: 'Kaushan Script', cursive; color:white;">Check your BMI</h2>
+                    <p id="introText" align="center">Enter your weight and height below to check your BMI results</p>
+                    <form id="for" style="border: white solid 1px;">
+                        <div id="weightInput">
+                            <label for="inputName" class="col-sm-1-12 col-form-label">Put your weight in here (KG)</label>
+                            <input id="weight" type="number" required pattern="[0-9]*" name="a" />
+                        </div>
+                        <br><br><br>
+                        <div id="heightInput"> <br><br><br>
+                            <label for="inputName" class="col-sm-1-12 col-form-label">And your height in here (CM)</label>
+                            <input id="height" type="number" pattern="[0-9]*" name="b" />
+                        </div> <br><br><br>
+                        <button type="button" onclick="calculate()">Calculate BMI</button>
+                    </form>
+                    <div id="results" align="center">Your BMI results will appear here</div>
+                </div>
             </div>
-        </div>
+        </section>
+ 
+        
         <table class="table">
             <thead>
                 <tr>
@@ -89,14 +94,17 @@
                     <th scope="row">1</th>
                     <td>Underweight</td>
                     <td>
-                        
-                            <p id="cool">You can increase calories by adding almonds, sunflower seeds, fruit, or whole-grain, wheat
-                                toast.</p>
-                        
+
+                        <p id="cool">You can increase calories by adding almonds, sunflower seeds, fruit, or
+                            whole-grain, wheat
+                            toast.</p>
+
                         <p id="cool">Eat food rich in high fibre, higher nutrition, higher protein and moderate fat.</p>
-                        <p id="cool"></p>Some high protein sources that you need are things like meat, milk, eggs and fish. </p>
-                        <p id="cool"></p>Healthy high caloric dense snacks like nuts, almonds, yoghurt, milkshakes, dried fruits like
-                            dates and ripe bananas in-between meals </p>
+                        <p id="cool"></p>Some high protein sources that you need are things like meat, milk, eggs and
+                        fish. </p>
+                        <p id="cool"></p>Healthy high caloric dense snacks like nuts, almonds, yoghurt, milkshakes,
+                        dried fruits like
+                        dates and ripe bananas in-between meals </p>
                     </td>
                     <td>
                         <li>Pushups</li>
@@ -119,13 +127,16 @@
                     <th scope="row">2</th>
                     <td>Overweight</td>
                     <td>
-                        <p id="cool"></p>Eat Less Cholesterol and Less Fat – Especially Less Saturated Fat, and Almost No Trans-Fat
+                        <p id="cool"></p>Eat Less Cholesterol and Less Fat – Especially Less Saturated Fat, and Almost
+                        No Trans-Fat
                         </li>
-                        <p id="cool"></p>Aim for at least five servings of fruits and vegetables a day. Usually, the more colorful
-                            the fruit or vegetable, the more nutritious. </p>
-                            <p id="cool">Avoid food that is high in sugar, like pastries, sweetened cereal, and soda or
+                        <p id="cool"></p>Aim for at least five servings of fruits and vegetables a day. Usually, the
+                        more colorful
+                        the fruit or vegetable, the more nutritious. </p>
+                        <p id="cool">Avoid food that is high in sugar, like pastries, sweetened cereal, and soda or
                             fruit-flavored drinks.</p>
-                            <p id="cool">Eat More Fruits, Vegetables, Whole Grains, and Low- or No-Fat Dairy Products Every Day.</p>
+                        <p id="cool">Eat More Fruits, Vegetables, Whole Grains, and Low- or No-Fat Dairy Products Every
+                            Day.</p>
                     </td>
                     <td>
                         <li>Aerobic Exercise</li>
@@ -147,7 +158,7 @@
             </tbody>
         </table>
 
-        <button id="checkoutBtn" class="btn btn-outline-success form-control">Proceed to Workout Guides</button>
+        
     </div>
     </div>
 

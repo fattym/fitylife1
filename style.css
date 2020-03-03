@@ -12,7 +12,7 @@ body{
 }
 
 #showcase{
-  background-image:url('https://bit.ly/2uNaUTa');
+  background-image:url('a.jpg');
   background-size:cover;
   background-position:center;
   height:100vh;
@@ -24,9 +24,7 @@ body{
   padding:0 20px;
 }
 #mouse-click{
-  padding-top : 32px;
-  margin-top: 30%;
-  padding-bottom: 30px; 
+  
   /* animation-iteration-count: infinite; */
 }
 #mouse-click {
