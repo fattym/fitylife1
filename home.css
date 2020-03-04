@@ -1,3 +1,4 @@
+
 li{
     font-family: 'Kaushan Script', cursive;
     font-weight: 300;
@@ -6,7 +7,9 @@ li{
 a{
     color:#926239;
 }
-
+.jumbotron{
+    background-color: #926239;
+}
 #cool{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
