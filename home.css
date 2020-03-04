@@ -10,6 +10,11 @@ a{
 #cool{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.arr{
+    display:flex;
+    justify-content: center;
+    height: 30px;
+}
 .bmi{
 background-color:#926239;
 }
