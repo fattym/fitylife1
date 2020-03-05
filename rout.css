@@ -1,10 +1,12 @@
 
 .container{
-    background-image: url("wo.jpg");
-    color:color;
+    background-color: #926239;
+    color: white;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
 }
 h3{
     font-family: 'Kaushan Script', cursive;
