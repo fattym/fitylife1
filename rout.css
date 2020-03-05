@@ -1,5 +1,15 @@
 
-
+.container{
+    /*background-image: url("wo.jpg");*/
+    color:color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+    color: ;
+}
 li{
     font-family: 'Kaushan Script', cursive;
     font-weight: 300;
